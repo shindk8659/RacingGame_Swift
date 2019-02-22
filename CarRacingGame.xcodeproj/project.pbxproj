@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52BA08872217D62D005D5DEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08862217D62D005D5DEE /* main.swift */; };
-		52BA08DD2217F95D005D5DEE /* CarRacingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08DC2217F95D005D5DEE /* CarRacingGameTests.swift */; };
-		52BA08E62217FB7A005D5DEE /* CarRacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08D32217F788005D5DEE /* CarRacingGame.swift */; };
-		52BA08E72217FB7B005D5DEE /* CarRacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08D32217F788005D5DEE /* CarRacingGame.swift */; };
-		52BA08E82217FB7D005D5DEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08862217D62D005D5DEE /* main.swift */; };
+		223F3F932217D56B00A9CE34 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3F922217D56B00A9CE34 /* main.swift */; };
+		223F3FA22217F27500A9CE34 /* CarRacingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FA12217F27500A9CE34 /* CarRacingGameTests.swift */; };
+		223F3FAD2220060F00A9CE34 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FAC2220060F00A9CE34 /* Car.swift */; };
+		223F3FAF222008CB00A9CE34 /* RacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FAE222008CB00A9CE34 /* RacingGame.swift */; };
+		223F3FB122200A1900A9CE34 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FB022200A1900A9CE34 /* RandomNumber.swift */; };
+		223F3FB32220142A00A9CE34 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3F922217D56B00A9CE34 /* main.swift */; };
+		223F3FB52220146700A9CE34 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FAC2220060F00A9CE34 /* Car.swift */; };
+		223F3FB62220146A00A9CE34 /* RacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FAE222008CB00A9CE34 /* RacingGame.swift */; };
+		223F3FB72220146C00A9CE34 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FB022200A1900A9CE34 /* RandomNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		52BA08812217D62D005D5DEE /* CopyFiles */ = {
+		223F3F8D2217D56B00A9CE34 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -27,23 +31,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		52BA08832217D62D005D5DEE /* CCStudy_RacingCar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CCStudy_RacingCar; sourceTree = BUILT_PRODUCTS_DIR; };
-		52BA08862217D62D005D5DEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		52BA08D32217F788005D5DEE /* CarRacingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacingGame.swift; sourceTree = "<group>"; };
-		52BA08DA2217F95D005D5DEE /* CarRacingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRacingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52BA08DC2217F95D005D5DEE /* CarRacingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacingGameTests.swift; sourceTree = "<group>"; };
-		52BA08DE2217F95D005D5DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223F3F8F2217D56B00A9CE34 /* CarRacingGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CarRacingGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		223F3F922217D56B00A9CE34 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		223F3F9F2217F27500A9CE34 /* CarRacingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRacingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		223F3FA12217F27500A9CE34 /* CarRacingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacingGameTests.swift; sourceTree = "<group>"; };
+		223F3FA32217F27500A9CE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		223F3FAC2220060F00A9CE34 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		223F3FAE222008CB00A9CE34 /* RacingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingGame.swift; sourceTree = "<group>"; };
+		223F3FB022200A1900A9CE34 /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52BA08802217D62D005D5DEE /* Frameworks */ = {
+		223F3F8C2217D56B00A9CE34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52BA08D72217F95D005D5DEE /* Frameworks */ = {
+		223F3F9C2217F27500A9CE34 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -53,38 +59,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		52BA087A2217D62D005D5DEE = {
+		223F3F862217D56B00A9CE34 = {
 			isa = PBXGroup;
 			children = (
-				52BA08852217D62D005D5DEE /* CCStudy_RacingCar */,
-				52BA08DB2217F95D005D5DEE /* CarRacingGameTests */,
-				52BA08842217D62D005D5DEE /* Products */,
+				223F3F912217D56B00A9CE34 /* CarRacingGame */,
+				223F3FA02217F27500A9CE34 /* CarRacingGameTests */,
+				223F3F902217D56B00A9CE34 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		52BA08842217D62D005D5DEE /* Products */ = {
+		223F3F902217D56B00A9CE34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52BA08832217D62D005D5DEE /* CCStudy_RacingCar */,
-				52BA08DA2217F95D005D5DEE /* CarRacingGameTests.xctest */,
+				223F3F8F2217D56B00A9CE34 /* CarRacingGame */,
+				223F3F9F2217F27500A9CE34 /* CarRacingGameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52BA08852217D62D005D5DEE /* CCStudy_RacingCar */ = {
+		223F3F912217D56B00A9CE34 /* CarRacingGame */ = {
 			isa = PBXGroup;
 			children = (
-				52BA08862217D62D005D5DEE /* main.swift */,
-				52BA08D32217F788005D5DEE /* CarRacingGame.swift */,
+				223F3F922217D56B00A9CE34 /* main.swift */,
+				223F3FB022200A1900A9CE34 /* RandomNumber.swift */,
+				223F3FAC2220060F00A9CE34 /* Car.swift */,
+				223F3FAE222008CB00A9CE34 /* RacingGame.swift */,
 			);
-			path = CCStudy_RacingCar;
+			path = CarRacingGame;
 			sourceTree = "<group>";
 		};
-		52BA08DB2217F95D005D5DEE /* CarRacingGameTests */ = {
+		223F3FA02217F27500A9CE34 /* CarRacingGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				52BA08DC2217F95D005D5DEE /* CarRacingGameTests.swift */,
-				52BA08DE2217F95D005D5DEE /* Info.plist */,
+				223F3FA12217F27500A9CE34 /* CarRacingGameTests.swift */,
+				223F3FA32217F27500A9CE34 /* Info.plist */,
 			);
 			path = CarRacingGameTests;
 			sourceTree = "<group>";
@@ -92,30 +100,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52BA08822217D62D005D5DEE /* CCStudy_RacingCar */ = {
+		223F3F8E2217D56B00A9CE34 /* CarRacingGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52BA088A2217D62D005D5DEE /* Build configuration list for PBXNativeTarget "CCStudy_RacingCar" */;
+			buildConfigurationList = 223F3F962217D56B00A9CE34 /* Build configuration list for PBXNativeTarget "CarRacingGame" */;
 			buildPhases = (
-				52BA087F2217D62D005D5DEE /* Sources */,
-				52BA08802217D62D005D5DEE /* Frameworks */,
-				52BA08812217D62D005D5DEE /* CopyFiles */,
+				223F3F8B2217D56B00A9CE34 /* Sources */,
+				223F3F8C2217D56B00A9CE34 /* Frameworks */,
+				223F3F8D2217D56B00A9CE34 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CCStudy_RacingCar;
-			productName = CCStudy_RacingCar;
-			productReference = 52BA08832217D62D005D5DEE /* CCStudy_RacingCar */;
+			name = CarRacingGame;
+			productName = CarRacingGame;
+			productReference = 223F3F8F2217D56B00A9CE34 /* CarRacingGame */;
 			productType = "com.apple.product-type.tool";
 		};
-		52BA08D92217F95D005D5DEE /* CarRacingGameTests */ = {
+		223F3F9E2217F27500A9CE34 /* CarRacingGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52BA08DF2217F95D005D5DEE /* Build configuration list for PBXNativeTarget "CarRacingGameTests" */;
+			buildConfigurationList = 223F3FA42217F27500A9CE34 /* Build configuration list for PBXNativeTarget "CarRacingGameTests" */;
 			buildPhases = (
-				52BA08D62217F95D005D5DEE /* Sources */,
-				52BA08D72217F95D005D5DEE /* Frameworks */,
-				52BA08D82217F95D005D5DEE /* Resources */,
+				223F3F9B2217F27500A9CE34 /* Sources */,
+				223F3F9C2217F27500A9CE34 /* Frameworks */,
+				223F3F9D2217F27500A9CE34 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -123,47 +131,47 @@
 			);
 			name = CarRacingGameTests;
 			productName = CarRacingGameTests;
-			productReference = 52BA08DA2217F95D005D5DEE /* CarRacingGameTests.xctest */;
+			productReference = 223F3F9F2217F27500A9CE34 /* CarRacingGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		52BA087B2217D62D005D5DEE /* Project object */ = {
+		223F3F872217D56B00A9CE34 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = CCStudy;
+				ORGANIZATIONNAME = kyeahen;
 				TargetAttributes = {
-					52BA08822217D62D005D5DEE = {
+					223F3F8E2217D56B00A9CE34 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					52BA08D92217F95D005D5DEE = {
+					223F3F9E2217F27500A9CE34 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 52BA087E2217D62D005D5DEE /* Build configuration list for PBXProject "CCStudy_RacingCar" */;
+			buildConfigurationList = 223F3F8A2217D56B00A9CE34 /* Build configuration list for PBXProject "CarRacingGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 52BA087A2217D62D005D5DEE;
-			productRefGroup = 52BA08842217D62D005D5DEE /* Products */;
+			mainGroup = 223F3F862217D56B00A9CE34;
+			productRefGroup = 223F3F902217D56B00A9CE34 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52BA08822217D62D005D5DEE /* CCStudy_RacingCar */,
-				52BA08D92217F95D005D5DEE /* CarRacingGameTests */,
+				223F3F8E2217D56B00A9CE34 /* CarRacingGame */,
+				223F3F9E2217F27500A9CE34 /* CarRacingGameTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52BA08D82217F95D005D5DEE /* Resources */ = {
+		223F3F9D2217F27500A9CE34 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -173,29 +181,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		52BA087F2217D62D005D5DEE /* Sources */ = {
+		223F3F8B2217D56B00A9CE34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BA08E62217FB7A005D5DEE /* CarRacingGame.swift in Sources */,
-				52BA08872217D62D005D5DEE /* main.swift in Sources */,
+				223F3FAF222008CB00A9CE34 /* RacingGame.swift in Sources */,
+				223F3F932217D56B00A9CE34 /* main.swift in Sources */,
+				223F3FAD2220060F00A9CE34 /* Car.swift in Sources */,
+				223F3FB122200A1900A9CE34 /* RandomNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52BA08D62217F95D005D5DEE /* Sources */ = {
+		223F3F9B2217F27500A9CE34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BA08E72217FB7B005D5DEE /* CarRacingGame.swift in Sources */,
-				52BA08DD2217F95D005D5DEE /* CarRacingGameTests.swift in Sources */,
-				52BA08E82217FB7D005D5DEE /* main.swift in Sources */,
+				223F3FB32220142A00A9CE34 /* main.swift in Sources */,
+				223F3FB62220146A00A9CE34 /* RacingGame.swift in Sources */,
+				223F3FB72220146C00A9CE34 /* RandomNumber.swift in Sources */,
+				223F3FA22217F27500A9CE34 /* CarRacingGameTests.swift in Sources */,
+				223F3FB52220146700A9CE34 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		52BA08882217D62D005D5DEE /* Debug */ = {
+		223F3F942217D56B00A9CE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,12 +239,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -256,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		52BA08892217D62D005D5DEE /* Release */ = {
+		223F3F952217D56B00A9CE34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,12 +300,12 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -310,61 +322,55 @@
 			};
 			name = Release;
 		};
-		52BA088B2217D62D005D5DEE /* Debug */ = {
+		223F3F972217D56B00A9CE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KB65UR5HX8;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		52BA088C2217D62D005D5DEE /* Release */ = {
+		223F3F982217D56B00A9CE34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KB65UR5HX8;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
-		52BA08E02217F95D005D5DEE /* Debug */ = {
+		223F3FA52217F27500A9CE34 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KB65UR5HX8;
+				DEVELOPMENT_TEAM = S3H456VQ6Y;
 				INFOPLIST_FILE = CarRacingGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CCStudy.CarRacingGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.iOS.CarRacingGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		52BA08E12217F95D005D5DEE /* Release */ = {
+		223F3FA62217F27500A9CE34 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = KB65UR5HX8;
+				DEVELOPMENT_TEAM = S3H456VQ6Y;
 				INFOPLIST_FILE = CarRacingGameTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CCStudy.CarRacingGameTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.iOS.CarRacingGameTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -373,34 +379,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52BA087E2217D62D005D5DEE /* Build configuration list for PBXProject "CCStudy_RacingCar" */ = {
+		223F3F8A2217D56B00A9CE34 /* Build configuration list for PBXProject "CarRacingGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52BA08882217D62D005D5DEE /* Debug */,
-				52BA08892217D62D005D5DEE /* Release */,
+				223F3F942217D56B00A9CE34 /* Debug */,
+				223F3F952217D56B00A9CE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52BA088A2217D62D005D5DEE /* Build configuration list for PBXNativeTarget "CCStudy_RacingCar" */ = {
+		223F3F962217D56B00A9CE34 /* Build configuration list for PBXNativeTarget "CarRacingGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52BA088B2217D62D005D5DEE /* Debug */,
-				52BA088C2217D62D005D5DEE /* Release */,
+				223F3F972217D56B00A9CE34 /* Debug */,
+				223F3F982217D56B00A9CE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52BA08DF2217F95D005D5DEE /* Build configuration list for PBXNativeTarget "CarRacingGameTests" */ = {
+		223F3FA42217F27500A9CE34 /* Build configuration list for PBXNativeTarget "CarRacingGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52BA08E02217F95D005D5DEE /* Debug */,
-				52BA08E12217F95D005D5DEE /* Release */,
+				223F3FA52217F27500A9CE34 /* Debug */,
+				223F3FA62217F27500A9CE34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 52BA087B2217D62D005D5DEE /* Project object */;
+	rootObject = 223F3F872217D56B00A9CE34 /* Project object */;
 }
