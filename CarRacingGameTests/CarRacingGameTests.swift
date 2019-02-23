@@ -23,10 +23,16 @@ class CarRacingGameTests: XCTestCase {
         
     }
     
-    func testPerformanceExample() {
+    func CarTest() {
+        let car1 = Car.init(name: "Dongkyu", distance: "---")
+        let car2 = Car.init(name: "Dong", distance: "--")
+        let car3 = Car.init(name: "kyu", distance: "-")
         
-        let expectedValue:Int  = 5
-        var checkValue:Bool = false
+        let carArray:Array<Car> = [car1,car2,car3]
+        
+        let game = Game()
+        game.resultRanking(raceResult: carArray)
+        
         
         if .moveCheck(random: expectedValue) == "-" {
             checkValue = true
@@ -36,6 +42,7 @@ class CarRacingGameTests: XCTestCase {
             checkValue = false
         }
         XCTAssertTrue(checkValue, "전진값이 아닙니다.")
+    
     }
     
 }

@@ -10,13 +10,15 @@ import Foundation
 
 class Racing {
     let carMove = CarMove()
-    func race() -> Void{
+    
+    func raceRuslt() -> String{
+        
         var raceResult:String = ""
         
         for _ in 0 ..< testNum {
             raceResult.append(carMove.moveCheck())
         }
-        print(raceResult)
+        return raceResult
     
         
     }

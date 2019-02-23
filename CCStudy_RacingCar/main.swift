@@ -7,11 +7,11 @@
 //
 
 import Foundation
-let car = Car()
-print("자동차 대수는 몇 대 인가요?")
-let carNum = Int(readLine()!) ?? 0
+let game = Game()
+print("경주할 자동차 이름을 입력력하세요 (이름은 쉼표(,)를 기준으로 구분).")
+let carString = readLine()!
 
 print("시도할 횟수는 몇 회 인가요?")
 let testNum = Int(readLine()!) ?? 0
 
-car.carRace()
+game.getCarName()
