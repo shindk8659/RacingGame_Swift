@@ -8,8 +8,8 @@
 
 import Foundation
 
-print("자동차 대수는 몇 대 인가요?")
-let carNumber = Int(readLine()!) ?? 0
+print("경주할 자동차 이름을 입력하세요.")
+let carNames = readLine() ?? ""
 
 print("시도할 횟수는 몇 회 인가요?")
 let testNumber = Int(readLine()!) ?? 0

@@ -16,6 +16,7 @@
 		223F3FB52220146700A9CE34 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FAC2220060F00A9CE34 /* Car.swift */; };
 		223F3FB62220146A00A9CE34 /* RacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FAE222008CB00A9CE34 /* RacingGame.swift */; };
 		223F3FB72220146C00A9CE34 /* RandomNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FB022200A1900A9CE34 /* RandomNumber.swift */; };
+		223F3FBA2221286400A9CE34 /* Winner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223F3FB92221286400A9CE34 /* Winner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		223F3FAC2220060F00A9CE34 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		223F3FAE222008CB00A9CE34 /* RacingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacingGame.swift; sourceTree = "<group>"; };
 		223F3FB022200A1900A9CE34 /* RandomNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumber.swift; sourceTree = "<group>"; };
+		223F3FB92221286400A9CE34 /* Winner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Winner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				223F3FB022200A1900A9CE34 /* RandomNumber.swift */,
 				223F3FAC2220060F00A9CE34 /* Car.swift */,
 				223F3FAE222008CB00A9CE34 /* RacingGame.swift */,
+				223F3FB92221286400A9CE34 /* Winner.swift */,
 			);
 			path = CarRacingGame;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				223F3F932217D56B00A9CE34 /* main.swift in Sources */,
 				223F3FAD2220060F00A9CE34 /* Car.swift in Sources */,
 				223F3FB122200A1900A9CE34 /* RandomNumber.swift in Sources */,
+				223F3FBA2221286400A9CE34 /* Winner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

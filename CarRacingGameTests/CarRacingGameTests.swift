@@ -35,4 +35,8 @@ class CarRacingGameTests: XCTestCase {
         //then
         XCTAssertEqual(expectedValue, testingValue, "전진값이 아닙니다.")
     }
+    
+    func test() {
+        let expectedArr:
+    }
 }
