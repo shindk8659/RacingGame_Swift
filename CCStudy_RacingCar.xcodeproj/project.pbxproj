@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		52BA08872217D62D005D5DEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08862217D62D005D5DEE /* main.swift */; };
 		52BA08DD2217F95D005D5DEE /* CarRacingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08DC2217F95D005D5DEE /* CarRacingGameTests.swift */; };
-		52BA08E62217FB7A005D5DEE /* CarRacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08D32217F788005D5DEE /* CarRacingGame.swift */; };
-		52BA08E72217FB7B005D5DEE /* CarRacingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08D32217F788005D5DEE /* CarRacingGame.swift */; };
-		52BA08E82217FB7D005D5DEE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA08862217D62D005D5DEE /* main.swift */; };
+		52E15FF52220EEB900100576 /* Racing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E15FF42220EEB900100576 /* Racing.swift */; };
+		52E15FF72220EF3000100576 /* CarMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E15FF62220EF3000100576 /* CarMove.swift */; };
+		52E15FF92220F8C900100576 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E15FF82220F8C900100576 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +29,12 @@
 /* Begin PBXFileReference section */
 		52BA08832217D62D005D5DEE /* CCStudy_RacingCar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CCStudy_RacingCar; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BA08862217D62D005D5DEE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		52BA08D32217F788005D5DEE /* CarRacingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacingGame.swift; sourceTree = "<group>"; };
 		52BA08DA2217F95D005D5DEE /* CarRacingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarRacingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BA08DC2217F95D005D5DEE /* CarRacingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarRacingGameTests.swift; sourceTree = "<group>"; };
 		52BA08DE2217F95D005D5DEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E15FF42220EEB900100576 /* Racing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racing.swift; sourceTree = "<group>"; };
+		52E15FF62220EF3000100576 /* CarMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMove.swift; sourceTree = "<group>"; };
+		52E15FF82220F8C900100576 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				52BA08862217D62D005D5DEE /* main.swift */,
-				52BA08D32217F788005D5DEE /* CarRacingGame.swift */,
+				52E15FF82220F8C900100576 /* Car.swift */,
+				52E15FF42220EEB900100576 /* Racing.swift */,
+				52E15FF62220EF3000100576 /* CarMove.swift */,
 			);
 			path = CCStudy_RacingCar;
 			sourceTree = "<group>";
@@ -177,7 +181,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BA08E62217FB7A005D5DEE /* CarRacingGame.swift in Sources */,
+				52E15FF72220EF3000100576 /* CarMove.swift in Sources */,
+				52E15FF52220EEB900100576 /* Racing.swift in Sources */,
+				52E15FF92220F8C900100576 /* Car.swift in Sources */,
 				52BA08872217D62D005D5DEE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,9 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BA08E72217FB7B005D5DEE /* CarRacingGame.swift in Sources */,
 				52BA08DD2217F95D005D5DEE /* CarRacingGameTests.swift in Sources */,
-				52BA08E82217FB7D005D5DEE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,7 +319,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB65UR5HX8;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -326,7 +330,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KB65UR5HX8;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

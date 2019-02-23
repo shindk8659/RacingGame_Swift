@@ -7,13 +7,11 @@
 //
 
 import Foundation
-
+let car = Car()
 print("자동차 대수는 몇 대 인가요?")
 let carNum = Int(readLine()!) ?? 0
 
 print("시도할 횟수는 몇 회 인가요?")
 let testNum = Int(readLine()!) ?? 0
 
-let carRacingGame = CarRacingGame()
-
-carRacingGame.outputResult()
+car.carRace()

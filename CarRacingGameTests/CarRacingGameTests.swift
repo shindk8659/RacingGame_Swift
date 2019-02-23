@@ -25,10 +25,10 @@ class CarRacingGameTests: XCTestCase {
     
     func testPerformanceExample() {
         
-        let expectedValue:Int  = 0
+        let expectedValue:Int  = 5
         var checkValue:Bool = false
         
-        if CarRacingGame.moveCheck(random: expectedValue) == "-" {
+        if .moveCheck(random: expectedValue) == "-" {
             checkValue = true
             
         }
