@@ -11,7 +11,7 @@ import XCTest
 
 class CarRacingGameTests: XCTestCase {
     
-    private var cars = Car()
+    private var cars = [Car]()
     private var Race = RacingGame()
     private var Randoms = RandomNumber()
 
@@ -23,20 +23,18 @@ class CarRacingGameTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    //전진, 후진 값을 테스트하는 함수
+    //랜덤값으로 차 위치값 체크하는 테스트 함수
     func testPositionCheck() {
-        //given
-        let expectedValue: Int = 0
         
-        //when
-        cars.move(value: 0)
-        let testingValue: Int = cars.getPosition()
-
-        //then
-        XCTAssertEqual(expectedValue, testingValue, "전진값이 아닙니다.")
+        let car1 = Car(name: "aa")
+        cars.append(car1)
+        
+        let randomValue: Int = 3
+        let expectedValue: Int = 1
+    
+        cars[0].move(value: randomValue)
+        XCTAssertEqual(expectedValue, cars[0].getPosition(), "랜덤 값에 맞는 위치값이 아닙니다.")
     }
     
-    func test() {
-        let expectedArr:
-    }
+    
 }

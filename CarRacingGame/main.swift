@@ -17,4 +17,4 @@ let testNumber = Int(readLine()!) ?? 0
 print("실행 결과")
 
 var race = RacingGame()
-race.startRace()
+race.startGame()

@@ -12,6 +12,7 @@ public class RandomNumber {
     
     private let minNumber = 0
     private let maxNumber = 10
+    
     private var randomNumber: Int
     
     public init() {
