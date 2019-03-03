@@ -10,7 +10,7 @@ import Foundation
 
 class CarMove {
     
-    func moveCheck() -> String {
+    public func moveCheck() -> String {
         
         let random = Int.random(in: 0..<10)
         

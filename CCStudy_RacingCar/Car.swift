@@ -8,9 +8,17 @@
 
 import Foundation
 
-struct Car {
+class Car {
     
-    var name:String
-    var distance:String
+    public var name:String = ""
+    public var distance:String = ""
+    private let racing = Racing()
+    
+    public func move() ->String {
+        distance = racing.raceRuslt()
+        return distance
+    }
+    
+    
     
 }

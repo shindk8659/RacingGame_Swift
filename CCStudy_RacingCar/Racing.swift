@@ -9,9 +9,10 @@
 import Foundation
 
 class Racing {
-    let carMove = CarMove()
     
-    func raceRuslt() -> String{
+    private let carMove = CarMove()
+    
+    public func raceRuslt() -> String{
         
         var raceResult:String = ""
         

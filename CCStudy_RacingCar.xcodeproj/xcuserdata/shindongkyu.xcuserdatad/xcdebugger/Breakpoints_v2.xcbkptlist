@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CCStudy_RacingCar/Game.swift"
-            timestampString = "572600738.911926"
+            timestampString = "573281008.303773"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "resultRanking(raceResult:)"
             landmarkType = "7">
          </BreakpointContent>
